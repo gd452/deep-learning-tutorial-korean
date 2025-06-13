@@ -1,6 +1,6 @@
-# 딥러닝 Step by Step 튜토리얼 🚀
+# 딥러닝 & LLM Step by Step 튜토리얼 🚀
 
-LLM을 배우기 전에 딥러닝의 기초부터 차근차근 배워보는 한국어 튜토리얼입니다.
+딥러닝의 기초부터 대규모 언어 모델(LLM)까지 차근차근 배워보는 한국어 튜토리얼입니다.
 
 ## 📚 학습 로드맵
 
@@ -52,6 +52,41 @@ LLM을 배우기 전에 딥러닝의 기초부터 차근차근 배워보는 한�
   - 감성 분석
   - 시계열 예측
 
+## 🚀 LLM (Large Language Model) 학습 과정
+
+### Step 7: Attention Mechanism - LLM의 핵심
+- **파일**: `tutorials/step7_attention/07_attention_mechanism.ipynb`
+- **학습 내용**:
+  - Attention의 직관적 이해
+  - Query, Key, Value 개념
+  - Scaled Dot-Product Attention
+  - Multi-Head Attention
+  - Positional Encoding
+
+### Step 8: Transformer 아키텍처
+- **파일**: `tutorials/step8_transformer/08_transformer_architecture.ipynb`
+- **학습 내용**:
+  - Encoder-Decoder 구조
+  - Layer Normalization과 Residual Connection
+  - Feed-Forward Networks
+  - 완전한 Transformer 구현
+
+### Step 9: Mini GPT 구현
+- **파일**: `tutorials/step9_mini_gpt/09_mini_gpt_implementation.ipynb`
+- **학습 내용**:
+  - GPT 아키텍처 이해
+  - 텍스트 토큰화
+  - 모델 학습 파이프라인
+  - 텍스트 생성 전략
+
+### Step 10: 대규모 LLM 이해와 활용
+- **파일**: `tutorials/step10_large_llm/10_understanding_large_llms.ipynb`
+- **학습 내용**:
+  - 현대 LLM의 발전 과정
+  - Hugging Face Transformers 사용법
+  - Fine-tuning과 Prompt Engineering
+  - LLM의 실제 응용
+
 ## 🛠 설치 방법
 
 ### 1. 저장소 클론
@@ -101,15 +136,18 @@ jupyter notebook
 - NumPy로 신경망을 처음부터 구현할 수 있습니다
 - PyTorch를 사용하여 실제 문제를 해결할 수 있습니다
 - CNN으로 이미지를 분류하고 RNN으로 텍스트를 처리할 수 있습니다
-- 더 고급 주제(Transformer, LLM 등)를 학습할 준비가 됩니다
+- Transformer와 Attention 메커니즘을 완벽히 이해할 수 있습니다
+- 나만의 Mini GPT를 구현할 수 있습니다
+- 대규모 LLM을 활용한 실제 응용 프로그램을 만들 수 있습니다
 
 ## 🚦 다음 단계
 
 이 튜토리얼을 마친 후에는:
-- **Transformer와 Attention**: 현대 NLP의 핵심
-- **생성 모델**: VAE, GAN
-- **강화학습**: DQN, Policy Gradient
-- **LLM 이해하기**: GPT, BERT 등의 구조와 원리
+- **고급 LLM 기법**: LoRA, QLoRA, PEFT
+- **멀티모달 AI**: CLIP, DALL-E, Flamingo
+- **강화학습**: RLHF, Constitutional AI
+- **최신 연구**: Flash Attention, Mixture of Experts
+- **실전 프로젝트**: 자신만의 AI 서비스 구축
 
 ## 📝 라이선스
 
